@@ -8,6 +8,8 @@ namespace Test
 {
     internal class Test
     {
+        public void Method() { }
+
         public Test() { }
     }
 }
