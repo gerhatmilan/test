@@ -10,6 +10,8 @@ namespace Test
     {
         public void Method() { }
 
-        public Test() { }
+        public Test() { 
+        
+        }
     }
 }
