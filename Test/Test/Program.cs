@@ -2,6 +2,18 @@
 {
     internal class Program
     {
+        internal class Human
+        {
+            private String _name;
+            private Int32 _age;
+
+            public Human(String name, Int32 age)
+            {
+                _name = name;
+                _age = age;
+            }
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
