@@ -8,10 +8,17 @@ namespace Test
 {
     internal class Test
     {
-        public void Method() { }
+        int f1;
+        int f2;
+        int f3;
 
-        public Test() { 
-        
+        public Test() {
+
+            f1 = f2 = f3 = 0;
         }
+
+        public void Method() { }
+        public void Method1() { }
+        public void Method2() { }
     }
 }
