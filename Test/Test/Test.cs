@@ -8,6 +8,8 @@ namespace Test
 {
     internal class Test
     {
+        public event EventHandler? event1;
+
         public void Method() { }
 
         public Test() { 
