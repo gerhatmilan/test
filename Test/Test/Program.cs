@@ -17,6 +17,11 @@
             {
                 Console.WriteLine($"Name: {0}\nAge: {1}", _name, _age);
             }
+
+            public void IncreaseAge()
+            {
+                _age++;
+            }
         }
 
         static void Main(string[] args)
