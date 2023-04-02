@@ -11,5 +11,9 @@ namespace Test
         public RandomClass() { 
 
         }
+
+        public void RandomMethod1() { }
+
+        public void RandomMethod2() { }
     }
 }
