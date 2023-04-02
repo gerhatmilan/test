@@ -12,6 +12,11 @@
                 _name = name;
                 _age = age;
             }
+
+            public void PrintHuman()
+            {
+                Console.WriteLine($"Name: {0}\nAge: {1}", _name, _age);
+            }
         }
 
         static void Main(string[] args)
