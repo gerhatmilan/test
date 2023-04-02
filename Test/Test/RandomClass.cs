@@ -17,5 +17,9 @@ namespace Test
             _name = String.Empty;
             _age = 0;
         }
+
+        public void RandomMethod1() { }
+
+        public void RandomMethod2() { }
     }
 }
