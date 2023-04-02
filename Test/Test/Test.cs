@@ -11,6 +11,7 @@ namespace Test
         int f1;
         int f2;
         int f3;
+        public event EventHandler? event1;
 
         public Test() {
 
