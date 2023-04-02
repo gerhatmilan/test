@@ -8,8 +8,14 @@ namespace Test
 {
     internal class RandomClass
     {
-        public RandomClass() { 
+        private String _name;
+        private Int32 _age;
 
+        public event EventHandler? RandomEvent;
+
+        public RandomClass() {
+            _name = String.Empty;
+            _age = 0;
         }
     }
 }
